@@ -46,6 +46,11 @@ const concepts = [
 
 const certifications = [
   { 
+    name: "GenAI Google Exchange Program", 
+    issuer: "Google", 
+    date: "April 2025" 
+  },
+  { 
     name: "AI/ML Internship (6 Weeks)", 
     issuer: "Hands-on ML experience", 
     date: "2021" 
