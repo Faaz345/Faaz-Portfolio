@@ -41,19 +41,9 @@ const projects = [
     githubLink: "#",
     demoLink: "#"
   },
+
   {
     id: 4,
-    title: "Music Store Database Analysis",
-    icon: <RiDatabase2Line className="text-3xl" />,
-    date: "Apr 2024 - May 2024",
-    description: "SQL project analyzing customer behavior and revenue trends with actionable insights",
-    technologies: ["SQL", "Data Analysis", "Visualization"],
-    githubLink: "#",
-    demoLink: "#",
-    demoText: "Report"
-  },
-  {
-    id: 5,
     title: "Email Spam Detection",
     icon: <RiSpam2Line className="text-3xl" />,
     date: "2024",
@@ -63,7 +53,7 @@ const projects = [
     demoLink: "#"
   },
   {
-    id: 6,
+    id: 5,
     title: "House Price Prediction",
     icon: <RiHome4Line className="text-3xl" />,
     date: "2024",
