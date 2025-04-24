@@ -1,0 +1,90 @@
+https://rishabhnmishra.github.io/
+
+Analyse and understand above link of a different person portfolio to get the idea and create a hacking green theme something for my portfolio and below are the info you have to put in the portfolio website
+
+👤 Personal Details
+Name: Faaz Siddiqui
+
+Location: Mumbai, India
+
+Phone: +91-8756978802
+
+Email: Faazrock345@gmail.com
+
+LinkedIn: linkedin.com/in/faaz-siddiqui-425365153
+
+GitHub: github.com/Faaz345
+
+Portfolio: Currently not linked – consider adding a personal site or portfolio link
+
+🎯 Profile Summary
+Final-year B.Tech Computer Science student with strong skills in Python, Java, and machine learning. Experienced in full-stack development and AI projects, with hands-on work in real-world applications and freelance client solutions.
+
+🎓 Education
+B.Tech in Computer Science and Engineering
+Amity University Mumbai
+2022 – Present | Among the top 5% of the batch
+Relevant Coursework: DSA, DBMS, OS, CN, ML, AI, Software Engineering
+
+🛠️ Technical Skills
+Languages: Python, Java, JavaScript, SQL, HTML, CSS, PHP (basic)
+
+Frameworks/Tools: Flask, Django (basic), Laravel (basic), Git, GitHub, VS Code, Linux
+
+Libraries: Pandas, NumPy, Scikit-learn, Matplotlib
+
+Concepts: OOP, SDLC, REST APIs, DBMS, Operating Systems, Networking
+
+Cloud/DevOps: Basic AWS, Git version control
+
+📜 Certifications
+Google Data Analytics Specialization – Coursera (Jan 2024)
+
+Applied Data Science with Python – University of Michigan (Nov 2024)
+
+AI/ML Internship (6 Weeks), 2021 – Hands-on ML experience
+
+💼 Experience
+Fiverr – Freelance AI & Software Developer (Oct 2022 – Sep 2024)
+Built AI solutions and full-stack web apps for international clients
+
+Delivered predictive tools, automation scripts, and full deployments
+
+Used Flask, Git, and ML models; practiced Agile workflows
+
+Ignitech – AI/ML Intern (Aug 2021 – Sep 2021)
+Built, trained, and validated ML models
+
+Participated in debugging and code optimization
+
+Worked in Agile with peer collaboration and data preprocessing
+
+🚀 Projects
+Mindigenous.ai (Jan 2025 – Present)
+Built an AI platform to convert natural language prompts into working full-stack applications
+
+Used Flask, AI models, and frontend integration
+
+Campus AR Navigation System (Aug 2023 – Dec 2023)
+Indoor AR guidance system for navigating college buildings
+
+Used AR frameworks for real-time updates and direction
+
+Face Recognition College Login System (Feb 2025 – Mar 2025)
+Login system with Python & OpenCV for facial authentication
+
+Secure and password-free access simulation
+
+Music Store Database Analysis (Apr 2024 – May 2024)
+SQL project analyzing customer behavior and revenue trends
+
+Provided actionable insights for marketing and inventory
+
+Email Spam Detection & House Price Prediction
+Built ML models using Scikit-learn and Pandas
+
+Focused on preprocessing, feature engineering, and model accuracy
+
+📄 Current Resume Version
+File: Faaz_Siddiqui - Resume.pdf
+
