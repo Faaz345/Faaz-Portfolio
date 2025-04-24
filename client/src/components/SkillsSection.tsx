@@ -46,16 +46,6 @@ const concepts = [
 
 const certifications = [
   { 
-    name: "Google Data Analytics Specialization", 
-    issuer: "Coursera", 
-    date: "Jan 2024" 
-  },
-  { 
-    name: "Applied Data Science with Python", 
-    issuer: "University of Michigan", 
-    date: "Nov 2024" 
-  },
-  { 
     name: "AI/ML Internship (6 Weeks)", 
     issuer: "Hands-on ML experience", 
     date: "2021" 
