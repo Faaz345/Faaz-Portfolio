@@ -85,7 +85,7 @@ const AboutSection = () => {
                 <RiGithubFill className="mr-2" /> GitHub
               </motion.a>
               <motion.a 
-                href="mailto:Faazrock345@gmail.com" 
+                href="mailto:faaz.siddiqui345@gmail.com" 
                 className="inline-flex items-center text-primary hover:text-primary/80"
                 whileHover={{ scale: 1.1 }}
                 whileTap={{ scale: 0.9 }}

@@ -2,7 +2,7 @@
 export const PERSONAL_INFO = {
   name: "Faaz Siddiqui",
   title: "Full-Stack Developer & ML Engineer",
-  email: "Faazrock345@gmail.com",
+  email: "faaz.siddiqui345@gmail.com",
   phone: "+91-8756978802",
   location: "Mumbai, India",
   linkedin: "https://linkedin.com/in/faaz-siddiqui-425365153",
@@ -43,7 +43,7 @@ export const SOCIAL_LINKS = [
   },
   {
     name: "Email",
-    url: "mailto:Faazrock345@gmail.com",
+    url: "mailto:faaz.siddiqui345@gmail.com",
     icon: "mail"
   }
 ];

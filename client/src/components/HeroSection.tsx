@@ -71,7 +71,7 @@ const HeroSection = () => {
                   <p className="mb-2"><span className="text-primary">~$</span> ls skills/</p>
                   <p className="mb-2 text-gray-300">Python, Java, JavaScript, SQL, Flask, Django</p>
                   <p className="mb-2"><span className="text-primary">~$</span> cat contact.txt</p>
-                  <p className="mb-2 text-gray-300">Faazrock345@gmail.com</p>
+                  <p className="mb-2 text-gray-300">faaz.siddiqui345@gmail.com</p>
                   <p className="mb-2"><span className="text-primary">~$</span> <span className="cursor"></span></p>
                 </div>
               </div>

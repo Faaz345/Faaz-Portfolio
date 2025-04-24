@@ -90,7 +90,7 @@ const ContactSection = () => {
                   <RiMailLine className="text-primary mr-3 mt-1 text-xl" />
                   <div>
                     <h4 className="text-white font-medium">Email</h4>
-                    <p className="text-gray-300">Faazrock345@gmail.com</p>
+                    <p className="text-gray-300">faaz.siddiqui345@gmail.com</p>
                   </div>
                 </div>
                 
@@ -136,7 +136,7 @@ const ContactSection = () => {
                 <RiGithubFill className="text-xl" />
               </motion.a>
               <motion.a 
-                href="mailto:Faazrock345@gmail.com"
+                href="mailto:faaz.siddiqui345@gmail.com"
                 className="bg-background p-4 rounded-full border border-primary/30 text-primary hover:text-primary/80 transition-all hover:border-primary"
                 whileHover={{ scale: 1.1, borderColor: "hsl(var(--primary))" }}
                 whileTap={{ scale: 0.9 }}
