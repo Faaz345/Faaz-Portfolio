@@ -1,0 +1,219 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+:root {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --primary: 142 100% 50%;
+  --primary-foreground: 0 0% 0%;
+  --secondary: 240 3.7% 15.9%;
+  --secondary-foreground: 0 0% 98%;
+  --accent: 240 3.7% 15.9%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 142 100% 50%;
+  --radius: 0.5rem;
+}
+
+/* Custom animations and styles */
+.terminal-header::before {
+  content: ">";
+  color: hsl(var(--primary));
+  margin-right: 8px;
+}
+
+.cursor::after {
+  content: '|';
+  animation: blink 1s step-end infinite;
+}
+
+.progress-bar {
+  position: relative;
+  height: 10px;
+  background: hsl(var(--primary) / 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: linear-gradient(90deg, hsl(var(--primary)), hsl(var(--primary) / 0.8));
+  border-radius: 5px;
+  transition: width 1s ease-in-out;
+}
+
+.nav-link {
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: hsl(var(--primary));
+  transition: width 0.3s;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}
+
+.project-card {
+  background: rgba(10, 10, 10, 0.95);
+  border: 1px solid hsl(var(--primary) / 0.5);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, transparent 65%, hsl(var(--primary)) 100%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px hsl(var(--primary) / 0.1);
+}
+
+.project-card:hover::before {
+  opacity: 0.1;
+}
+
+.timeline-item {
+  position: relative;
+  padding-left: 1.5rem;
+  border-left: 2px solid hsl(var(--primary));
+  margin-bottom: 2rem;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -8px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: hsl(var(--background));
+  border: 2px solid hsl(var(--primary));
+}
+
+.section-divider {
+  height: 2px;
+  background: linear-gradient(90deg, transparent, hsl(var(--primary)), transparent);
+  margin: 2rem 0;
+}
+
+/* Matrix particle animation */
+@keyframes matrix-fall {
+  0% { 
+    transform: translateY(-100%);
+    opacity: 1;
+  }
+  100% { 
+    transform: translateY(1000%);
+    opacity: 0;
+  }
+}
+
+/* Typing animation for terminal headers */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* Cursor blinking animation */
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.typing-animation {
+  overflow: hidden;
+  white-space: nowrap;
+  display: inline-block;
+  animation: typing 3.5s steps(40, end);
+}
+
+.matrix-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+  opacity: 0.15;
+}
+
+.matrix-column {
+  position: absolute;
+  top: -100%;
+  animation: matrix-fall 20s linear infinite;
+  color: hsl(var(--primary));
+  font-family: 'Fira Code', monospace;
+  font-size: 1.5rem;
+  white-space: nowrap;
+}
+
+.matrix-char {
+  font-family: 'Fira Code', monospace;
+  color: hsl(var(--primary));
+  text-shadow: 0 0 5px hsl(var(--primary));
+  font-size: 1.2rem;
+  opacity: 0.8;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary) / 0.6);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--primary));
+}
