@@ -90,10 +90,15 @@ const ProjectCard = ({ project }: { project: typeof projects[0] }) => {
       </div>
       <div className="flex justify-between">
         <a href={project.githubLink} className="text-primary hover:text-primary/80 flex items-center">
-          <RiGithubFill className="mr-1" /> Code
+          <RiGithubFill className="mr-1" /> GitHub
         </a>
         <a href={project.demoLink} className="text-primary hover:text-primary/80 flex items-center">
           <RiExternalLinkLine className="mr-1" /> {project.demoText || "Demo"}
+        </a>
+      </div>
+      <div className="mt-3 pt-3 border-t border-primary/20">
+        <a href="https://www.fiverr.com/s/ZmG1k3a" className="text-primary hover:text-primary/80 flex items-center">
+          <RiExternalLinkLine className="mr-1" /> Hire me on Fiverr
         </a>
       </div>
     </motion.div>
