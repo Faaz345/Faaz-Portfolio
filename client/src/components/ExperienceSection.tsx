@@ -1,7 +1,8 @@
 import { motion } from "framer-motion";
 import { 
   RiTerminalBoxLine, 
-  RiCheckboxCircleLine 
+  RiCheckboxCircleLine,
+  RiExternalLinkLine
 } from "react-icons/ri";
 
 const workExperiences = [
@@ -80,6 +81,16 @@ const ExperienceSection = () => {
                     <li key={i}>{item}</li>
                   ))}
                 </ul>
+                {exp.id === 1 && (
+                  <a 
+                    href="https://www.fiverr.com/s/ZmG1k3a" 
+                    target="_blank" 
+                    rel="noopener noreferrer" 
+                    className="inline-flex items-center mt-3 text-primary hover:text-primary/80 transition-colors border border-primary/30 px-3 py-1 rounded"
+                  >
+                    <RiExternalLinkLine className="mr-2" /> View my Fiverr profile
+                  </a>
+                )}
               </motion.div>
             ))}
           </div>
