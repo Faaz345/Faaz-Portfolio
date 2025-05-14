@@ -56,10 +56,8 @@ app.use((req, res, next) => {
     serveStatic(app);
   }
 
-  // ALWAYS serve the app on port 5050
-  // this serves both the API and the client.
-  // It is the only port that is not firewalled.
-  const port = 5050;
+  // Use the port provided by Vercel in production, or fallback to 5050 for local development
+  const port = process.env.PORT || 5050;
   server.listen(port, () => {
     log(`serving on port ${port}`);
   });
